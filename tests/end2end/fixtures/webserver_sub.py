@@ -19,7 +19,7 @@
 
 """Web server for end2end tests.
 
-This script gets called as a QProcess from end2end/conftest.py.
+This script gets called as a QProcess from tests.end2end/conftest.py.
 
 Some of the handlers here are inspired by the server project, but simplified
 for qutebrowser's needs. Note that it probably doesn't handle e.g. multiple

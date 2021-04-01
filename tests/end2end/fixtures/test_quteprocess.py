@@ -25,7 +25,7 @@ import json
 
 import pytest
 
-from end2end.fixtures import quteprocess, testprocess
+from tests.end2end.fixtures import quteprocess, testprocess
 from qutebrowser.utils import log
 
 

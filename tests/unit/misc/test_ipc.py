@@ -37,7 +37,7 @@ from PyQt5.QtTest import QSignalSpy
 import qutebrowser
 from qutebrowser.misc import ipc
 from qutebrowser.utils import standarddir, utils, version
-from helpers import stubs, testutils
+from tests.helpers import stubs, testutils
 
 
 pytestmark = pytest.mark.usefixtures('qapp')

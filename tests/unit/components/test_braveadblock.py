@@ -29,7 +29,7 @@ import pytest
 from qutebrowser.api.interceptor import ResourceType
 from qutebrowser.components import braveadblock
 from qutebrowser.components.utils import blockutils
-from helpers import testutils
+from tests.helpers import testutils
 
 pytestmark = pytest.mark.usefixtures("qapp")
 

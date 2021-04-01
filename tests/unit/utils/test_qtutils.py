@@ -33,8 +33,8 @@ from PyQt5.QtCore import (QDataStream, QPoint, QUrl, QByteArray, QIODevice,
 from PyQt5.QtGui import QColor
 
 from qutebrowser.utils import qtutils, utils, usertypes
-import overflow_test_cases
-from helpers import testutils
+from tests.unit.utils import overflow_test_cases
+from tests.helpers import testutils
 
 if utils.is_linux:
     # Those are not run on macOS because that seems to cause a hang sometimes.

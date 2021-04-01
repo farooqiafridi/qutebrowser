@@ -20,7 +20,7 @@
 
 import pytest
 
-from helpers import testutils
+from tests.helpers import testutils
 
 
 @pytest.mark.parametrize('val1, val2', [

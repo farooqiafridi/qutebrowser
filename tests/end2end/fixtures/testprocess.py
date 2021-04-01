@@ -30,7 +30,7 @@ from PyQt5.QtCore import (pyqtSlot, pyqtSignal, QProcess, QObject,
                           QElapsedTimer, QProcessEnvironment)
 from PyQt5.QtTest import QSignalSpy
 
-from helpers import testutils
+from tests.helpers import testutils
 
 from qutebrowser.utils import utils as quteutils
 

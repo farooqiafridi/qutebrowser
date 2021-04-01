@@ -21,7 +21,7 @@ import os.path
 
 import pytest_bdd as bdd
 
-from helpers import testutils
+from tests.helpers import testutils
 
 bdd.scenarios('urlmarks.feature')
 

@@ -25,7 +25,7 @@ import sip
 import pytest
 from PyQt5.QtCore import QObject
 
-from helpers import testutils
+from tests.helpers import testutils
 from qutebrowser.misc import throttle
 
 

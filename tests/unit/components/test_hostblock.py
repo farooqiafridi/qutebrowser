@@ -28,7 +28,7 @@ from PyQt5.QtCore import QUrl
 
 from qutebrowser.components import hostblock
 from qutebrowser.utils import urlmatch
-from helpers import testutils
+from tests.helpers import testutils
 
 
 pytestmark = pytest.mark.usefixtures("qapp")

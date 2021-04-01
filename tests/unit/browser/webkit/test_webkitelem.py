@@ -35,7 +35,7 @@ from qutebrowser.browser.webkit import webkitelem
 from qutebrowser.misc import objects
 from qutebrowser.utils import usertypes
 if TYPE_CHECKING:
-    from helpers import stubs
+    from tests.helpers import stubs
 
 
 def get_webelem(geometry=None, frame=None, *, null=False, style=None,

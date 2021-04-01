@@ -26,7 +26,7 @@ from unittest.mock import ANY, call
 
 import pytest
 
-from helpers import testutils
+from tests.helpers import testutils
 
 qute_lastpass = testutils.import_userscript('qute-lastpass')
 

@@ -32,11 +32,11 @@ from PyQt5.QtCore import PYQT_VERSION
 
 pytest.register_assert_rewrite('helpers')
 
-from helpers import logfail
-from helpers.logfail import fail_on_logging
-from helpers.messagemock import message_mock
-from helpers.fixtures import *  # noqa: F403
-from helpers import testutils
+from tests.helpers import logfail
+from tests.helpers.logfail import fail_on_logging
+from tests.helpers.messagemock import message_mock
+from tests.helpers.fixtures import *  # noqa: F403
+from tests.helpers import testutils
 from qutebrowser.utils import qtutils, standarddir, usertypes, utils, version
 from qutebrowser.misc import objects, earlyinit
 from qutebrowser.qt import sip

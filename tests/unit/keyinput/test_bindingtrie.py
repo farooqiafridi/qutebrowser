@@ -29,7 +29,7 @@ from PyQt5.QtGui import QKeySequence
 
 from qutebrowser.keyinput import basekeyparser
 from qutebrowser.keyinput import keyutils
-from unit.keyinput import test_keyutils
+from tests.unit.keyinput import test_keyutils
 
 
 @pytest.mark.parametrize('entered, configured, match_type',

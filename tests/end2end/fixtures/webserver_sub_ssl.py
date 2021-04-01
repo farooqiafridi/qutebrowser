@@ -19,7 +19,7 @@
 
 """Minimal flask webserver serving a Hello World via SSL.
 
-This script gets called as a QProcess from end2end/conftest.py.
+This script gets called as a QProcess from tests.end2end/conftest.py.
 """
 
 import ssl

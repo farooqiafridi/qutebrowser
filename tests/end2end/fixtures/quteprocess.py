@@ -38,8 +38,8 @@ from PyQt5.QtGui import QImage, QColor
 
 from qutebrowser.misc import ipc
 from qutebrowser.utils import log, utils, javascript
-from helpers import testutils
-from end2end.fixtures import testprocess
+from tests.helpers import testutils
+from tests.end2end.fixtures import testprocess
 
 
 instance_counter = itertools.count()
